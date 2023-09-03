@@ -1,6 +1,7 @@
 @import 'color';
 
 .page-navigation {
+  margin-bottom: 2.4rem;
   border-bottom: 1px solid;
 
   .content-wrapper {
@@ -92,6 +93,33 @@
   .nav-item.active .nav-link { opacity: 1 }
 }
 
+.page-aside {
+  height: max-content;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.4rem;
+
+  @include md {
+    position: sticky;
+    top: 2.4rem;
+  }
+
+  .aside-content {
+    padding: 1.6rem 2.4rem;
+  }
+
+  .aside-title {
+    margin-bottom: 0;
+    padding: 1.2rem 1.8rem;
+    font-size: 1.6rem;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;;
+    border-color: $component-border;
+  }
+
+  #TableOfContents { padding-left: 3.2rem }
+}
+
 .page-footer {
   margin-top: auto;
   padding: 2.4rem 0;
@@ -150,6 +178,7 @@
 }
 
 .page-navigation,
+.page-aside,
 .page-footer {
   background-color: $component-background;
   border-color: $component-border;

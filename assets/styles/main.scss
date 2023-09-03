@@ -29,3 +29,22 @@ body {
   width: 100%;
   max-width: 144rem;
 }
+
+.blog-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 100%;
+  max-width: 108rem;
+
+  @include md {
+    flex-direction: row;
+    gap: 7.2rem;
+  }
+
+  .page-aside {
+    width: 100%;
+    max-width: 24rem;
+  }
+}
