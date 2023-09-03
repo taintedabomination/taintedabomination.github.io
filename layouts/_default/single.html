@@ -1,14 +1,17 @@
 {{ define "main" }}
-  {{ if eq .Section "hardware" }}
-    <h1>Hardware - {{ .Title }}</h1>
-  {{ else }}
-    <h1>{{ .Title }}</h1>
-  {{ end }}
-  {{ if .Params.author }}
-    <h4>Autor: {{ .Params.author }}</h4>
-  {{ end }}
-  {{ if .Params.Date }}
-    <h4>Publikováno: {{ .Date.Day }}. {{ printf "%d" .Date.Month }}. {{ .Date.Year }}</h4>
-  {{ end }}
-  {{ .Content }}
+  {{ partial "aside.html" . }}
+  <main>
+    {{ if eq .Section "hardware" }}
+      <h1>Hardware - {{ .Title }}</h1>
+    {{ else }}
+      <h1>{{ .Title }}</h1>
+    {{ end }}
+    {{ if .Params.author }}
+      <h4>Autor: {{ .Params.author }}</h4>
+    {{ end }}
+    {{ if .Params.Date }}
+      <h4>Publikováno: {{ .Date.Day }}. {{ printf "%d" .Date.Month }}. {{ .Date.Year }}</h4>
+    {{ end }}
+    {{ .Content }}
+  </main>
 {{ end }}
