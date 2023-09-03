@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Title -->
-  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <title>{{ .Title }}{{ .Site.Params.titlePostfix }}</title>
    <!-- Styling -->
    {{ $style := resources.Get "styles/main.scss" | resources.ToCSS }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">

@@ -9,7 +9,9 @@
     </label>
     <ul class="nav-items">
       {{ range .Site.Data.navigation.main }}
-        <li class="nav-item">
+        <li
+          class="nav-item{{ if or (eq $.Page.RelPermalink .link) (and (strings.HasPrefix $.Page.RelPermalink .link) (not (eq .link "/"))) }} active{{ end }}"
+        >
           <a class="nav-link" href="{{ .link }}">{{ .name }}</a>
         </li>
       {{ end }}

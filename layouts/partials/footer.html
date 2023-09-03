@@ -1,13 +1,35 @@
-<footer>
+<footer class="page-footer">
   <div class="content-wrapper">
-    <hr>
-    <p>Licensováno pod GNU GPLv3</p>
-    <p>
-      <a
-        href="https://github.com/taintedabomination/taintedabomination.github.io"
-        target="_blank"
-        rel="noreferrer"
-      >Repozitář</a>
+    <p class="license-label">
+      <i class="fa-solid fa-balance-scale"></i>
+      <span>
+        Licensováno pod
+        <a
+          href="{{ .Site.Params.licenseLink }}"
+          target="_blank"
+          rel="noreferrer"
+          class="license-link"
+        >{{ .Site.Params.license }}</a>
+      </span>
     </p>
+    <ul class="footer-items">
+      <li class="footer-item">
+        <a
+          class="footer-link"
+          href="https://github.com/taintedabomination/taintedabomination.github.io"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i class="fa-solid fa-link"></i>
+          <span>Repozitář</span>
+        </a>
+      </li>
+      <li>
+        <a class="footer-link" href="#">Odkaz</a>
+      </li>
+      <li>
+        <a class="footer-link" href="#">Odkaz</a>
+      </li>
+    </ul>
   </div>
 </footer>
