@@ -1,6 +1,12 @@
 <nav class="page-navigation">
   <div class="content-wrapper">
-    <h2>Navigace</h2>
+    <h2 class="nav-title">
+      <a href="/">{{ .Site.Title }}</a>
+    </h2>
+    <input type="checkbox" id="nav-toggle">
+    <label for="nav-toggle" class="nav-hider">
+      Hider
+    </label>
     <ul class="nav-items">
       {{ range .Site.Data.navigation.main }}
         <li class="nav-item">

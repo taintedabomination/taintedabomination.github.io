@@ -5,7 +5,10 @@
     <h1>{{ .Title }}</h1>
   {{ end }}
   {{ if .Params.author }}
-    <h4>By {{ .Params.author }}</h4>
+    <h4>Autor: {{ .Params.author }}</h4>
+  {{ end }}
+  {{ if .Params.Date }}
+    <h4>Publikováno: {{ .Date.Day }}. {{ printf "%d" .Date.Month }}. {{ .Date.Year }}</h4>
   {{ end }}
   {{ .Content }}
 {{ end }}
