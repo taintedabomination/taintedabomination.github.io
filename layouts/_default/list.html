@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ .Content }}
+  <h2>Sekce</h2>
+  <ul>
+    {{ range .Pages }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

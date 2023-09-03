@@ -1,0 +1,12 @@
+<nav class="page-navigation">
+  <div class="content-wrapper">
+    <h2>Navigace</h2>
+    <ul class="nav-items">
+      {{ range .Site.Data.navigation.main }}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ .link }}">{{ .name }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</nav>
