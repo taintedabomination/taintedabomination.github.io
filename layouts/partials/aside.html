@@ -1,0 +1,18 @@
+<aside class="page-aside">
+  {{ if eq .Section "hardware" }}
+    <h3 class="aside-title">Hardware</h3>
+  {{ else }}
+    <h3 class="aside-title">{{ .Title }}</h3>
+  {{ end }}
+  <div class="aside-content">
+    {{ $section := site.GetPage .Section }}
+    <ul class="aside-items">
+      {{ range $index, $page := $section.RegularPagesRecursive }}
+        <li class="aside-item">
+          <a class="aside-link" href="{{ $page.Permalink }}">{{ add $index 1 }}. {{ $page.Title }}</a>
+        </li>
+      {{ end }}
+      {{ .TableOfContents }}
+    </ul>
+  </div>
+</aside>

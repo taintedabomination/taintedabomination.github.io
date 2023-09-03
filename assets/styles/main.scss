@@ -1,5 +1,7 @@
 @import 'reset';
 @import 'breakpoint';
+@import 'color';
+@import 'component';
 
 html {
   font-size: 56.25%;
@@ -12,11 +14,37 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $page-background;
+  color: $page-foreground;
   font-size: 1.5rem;
+  font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
 
 .content-wrapper {
   margin: 0 auto;
+  padding: 0 2.4rem;
+  width: 100%;
+  max-width: 144rem;
+}
+
+.blog-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
   width: 100%;
   max-width: 108rem;
+
+  @include md {
+    flex-direction: row;
+    gap: 7.2rem;
+  }
+
+  .page-aside {
+    width: 100%;
+    max-width: 24rem;
+  }
 }

@@ -1,5 +1,7 @@
 ---
 title: "Úvod"
+author: "taintedabomination"
+date: "2023-09-03"
 ---
 
 ## Titulek 2

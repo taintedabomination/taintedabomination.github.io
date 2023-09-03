@@ -2,9 +2,9 @@
   {{ .Content }}
   <h2>Sekce</h2>
   <ul>
-    {{ range .Pages }}
+    {{ range $index, $page := .Pages }}
       <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <a href="{{ .Permalink }}">{{ add $index 1 }}. {{ $page.Title }}</a>
       </li>
     {{ end }}
   </ul>

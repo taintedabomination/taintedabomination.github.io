@@ -1,9 +1,17 @@
 <nav class="page-navigation">
   <div class="content-wrapper">
-    <h2>Navigace</h2>
+    <h2 class="nav-title">
+      <a href="/">{{ .Site.Title }}</a>
+    </h2>
+    <input type="checkbox" id="nav-toggle">
+    <label for="nav-toggle" class="nav-hider">
+      <i class="fa-solid fa-bars"></i>
+    </label>
     <ul class="nav-items">
       {{ range .Site.Data.navigation.main }}
-        <li class="nav-item">
+        <li
+          class="nav-item{{ if or (eq $.Page.RelPermalink .link) (and (strings.HasPrefix $.Page.RelPermalink .link) (not (eq .link "/"))) }} active{{ end }}"
+        >
           <a class="nav-link" href="{{ .link }}">{{ .name }}</a>
         </li>
       {{ end }}

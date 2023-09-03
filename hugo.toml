@@ -1,3 +1,14 @@
 baseURL = 'https://taintedabomination.github.io/'
 languageCode = 'cs'
 title = 'taintedabomination'
+
+[params]
+titlePostfix = " | taintedabomination"
+license = "GNU GPLv3"
+licenseLink = "https://www.gnu.org/licenses/gpl-3.0.html"
+
+[markup]
+[markup.tableOfContents]
+endLevel = 2
+ordered = false
+startLevel = 1
