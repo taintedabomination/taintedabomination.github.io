@@ -1,3 +1,11 @@
 {{ define "main" }}
+  {{ if eq .Section "hardware" }}
+    <h1>Hardware - {{ .Title }}</h1>
+  {{ else }}
+    <h1>{{ .Title }}</h1>
+  {{ end }}
+  {{ if .Params.author }}
+    <h4>By {{ .Params.author }}</h4>
+  {{ end }}
   {{ .Content }}
 {{ end }}

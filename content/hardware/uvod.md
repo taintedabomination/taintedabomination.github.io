@@ -2,8 +2,6 @@
 title: "Úvod"
 ---
 
-# Úvod do Hardware
-
 ## Titulek 2
 
 ### Titulek 3
