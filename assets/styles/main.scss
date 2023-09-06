@@ -47,4 +47,68 @@ body {
     width: 100%;
     max-width: 24rem;
   }
+
+  .post-title {
+    margin-bottom: 0.3em;
+    font-size: 2em;
+  }
+
+  .post-text {
+    h1 {
+      margin: 0.67em 0;
+      font-size: 2em;
+    }
+
+    h2 {
+      margin: 0.67em 0;
+      font-size: 2em;
+    }
+
+    h3 {
+      margin: 0.83em 0;
+      font-size: 1.17em;
+    }
+
+    h4 {
+      margin: 1.33em 0;
+      font-size: 1em;
+    }
+
+    h5 {
+      margin: 1.67em 0;
+      font-size: 0.83em;
+    }
+
+    h6 {
+      margin: 2.33em 0;
+      font-size: 0.67em;
+    }
+
+    p {
+      margin: 1em 0;
+    }
+
+    ul,
+    ol {
+      margin: 1em 0;
+      padding-left: 4rem;
+    }
+    
+    ul { list-style: disc }
+    ol { list-style: decimal }
+  }
+  
+  .post-info {
+    margin-bottom: 1.6rem;
+
+    .info-line {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+  
+      i {
+        font-size: 1.3rem;
+      }
+    }
+  }
 }

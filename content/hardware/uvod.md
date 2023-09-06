@@ -4,18 +4,8 @@ author: "taintedabomination"
 date: "2023-09-03"
 ---
 
-## Titulek 2
+## Epický Hardware
 
-### Titulek 3
-
-#### Titulek 4
-
-##### Titulek 5
-
-###### Titulek 6
-
-- Item
-- Item
 - Item
 - Item
 - Item
@@ -23,5 +13,15 @@ date: "2023-09-03"
 1. Item
 2. Item
 3. Item
-4. Item
-5. Item
+
+### Pindíkový manipulátor
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut tempus purus at lorem. Praesent dapibus. Duis pulvinar. Aliquam erat volutpat. Praesent id justo in neque elementum ultrices. Nulla non lectus sed nisl molestie malesuada. Praesent in mauris eu tortor porttitor accumsan.
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut tempus purus at lorem. Praesent dapibus. Duis pulvinar. Aliquam erat volutpat. Praesent id justo in neque elementum ultrices. Nulla non lectus sed nisl molestie malesuada. Praesent in mauris eu tortor porttitor accumsan.
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut tempus purus at lorem. Praesent dapibus. Duis pulvinar. Aliquam erat volutpat. Praesent id justo in neque elementum ultrices. Nulla non lectus sed nisl molestie malesuada. Praesent in mauris eu tortor porttitor accumsan.
+
+### Pindíkový vyjednavač
+
+### Pindíkový kousač

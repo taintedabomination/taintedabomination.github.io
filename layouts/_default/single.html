@@ -3,17 +3,27 @@
     {{ partial "aside.html" . }}
     <main>
       {{ if eq .Section "hardware" }}
-        <h1>Hardware - {{ .Title }}</h1>
+        <h1 class="post-title">Hardware - {{ .Title }}</h1>
       {{ else }}
-        <h1>{{ .Title }}</h1>
+        <h1 class="post-title">{{ .Title }}</h1>
       {{ end }}
-      {{ if .Params.author }}
-        <h4>Autor: {{ .Params.author }}</h4>
-      {{ end }}
-      {{ if .Params.Date }}
-        <h4>Publikováno: {{ .Date.Day }}. {{ printf "%d" .Date.Month }}. {{ .Date.Year }}</h4>
-      {{ end }}
-      {{ .Content }}
+      <div class="post-info">
+        {{ if .Params.author }}
+          <h4 class="info-line post-author">
+            <span><i class="fa-solid fa-user"></i></span>
+            <span>Autor: {{ .Params.author }}</span>
+          </h4>
+        {{ end }}
+        {{ if .Params.Date }}
+          <h4 class="info-line post-date">
+            <span><i class="fa-solid fa-calendar"></i></span>
+            <span>Publikováno: {{ .Date.Day }}. {{ printf "%d" .Date.Month }}. {{ .Date.Year }}</span>
+          </h4>
+        {{ end }}
+      </div>
+      <div class="post-text">
+        {{ .Content }}
+      </div>
     </main>
   </div>
 {{ end }}

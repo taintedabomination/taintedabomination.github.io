@@ -3,3 +3,5 @@ main:
     link: "/"
   - name: "Hardware"
     link: "/hardware"
+  - name: "Literatura"
+    link: "/literatura"
