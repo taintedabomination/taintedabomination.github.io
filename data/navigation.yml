@@ -1,7 +1,5 @@
 main:
   - name: "Domů"
     link: "/"
-  - name: "Hardware"
-    link: "/hardware"
   - name: "Literatura"
     link: "/literatura"

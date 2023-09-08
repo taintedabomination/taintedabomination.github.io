@@ -54,14 +54,9 @@ body {
   }
 
   .post-text {
-    h1 {
-      margin: 0.67em 0;
-      font-size: 2em;
-    }
-
     h2 {
       margin: 0.67em 0;
-      font-size: 2em;
+      font-size: 1.5em;
     }
 
     h3 {
@@ -94,7 +89,14 @@ body {
       padding-left: 4rem;
     }
     
-    ul { list-style: disc }
+    ul {
+      list-style: disc;
+      
+      ul {
+        margin: 0.5em 0;
+        list-style: circle;
+      }
+    }
     ol { list-style: decimal }
   }
   
