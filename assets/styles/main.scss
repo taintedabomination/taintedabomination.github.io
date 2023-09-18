@@ -45,7 +45,14 @@ body {
 
   .page-aside {
     width: 100%;
-    max-width: 24rem;
+    max-width: 28rem;
+
+    #TableOfContents {
+      padding-left: 0;
+      ul ul {
+        padding-left: 3.2rem;
+      }
+    }
   }
 
   .post-title {
@@ -54,6 +61,8 @@ body {
   }
 
   .post-text {
+    padding-bottom: 2.4rem;
+
     h2 {
       margin: 0.67em 0;
       font-size: 1.5em;

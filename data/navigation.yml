@@ -1,5 +1,9 @@
 main:
   - name: "Domů"
     link: "/"
+  - name: "Hardware"
+    link: "/hardware"
+  - name: "Čeština"
+    link: "/cestina"
   - name: "Literatura"
     link: "/literatura"
