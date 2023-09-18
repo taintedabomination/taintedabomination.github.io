@@ -2,6 +2,7 @@
 title: "Světová poválečná literatura"
 author: "taintedabomination"
 date: "2023-09-06"
+weight: 1
 ---
 
 - próza, která reaguje na druhou světovou válku
@@ -52,3 +53,35 @@ date: "2023-09-06"
 - dílo je často srovnávánio s Májem
 
 ## Neorealismus
+
+- vzniká v průběhu války a po ní
+- Itálie se tímto směrem vyrovnává s fašistickou minulostí
+- často má formu deníků či memoárů
+- návrat k realistické tradici
+- jde o pravdivé vylíčení poválečnou Itálii
+- pozornost se soustředí na každodenní život obyčejných lidí
+- důraz se klade na dokumentárnost a hodnověrnost
+
+### Alberto Moravia
+
+- napsal 2 romány
+
+#### Horalka
+
+- o ženě z hor
+- během války vydělají dost peněz
+- Řím je ohrožen spojeneckými nálety
+- z Říma utečou
+- vrátí se zpět do hor, kde přežijí válku
+- příběhy partizánů
+- jeden zde umírá
+- chtějí se dostat zpět do Říma
+- přenocujuí v kostele
+- znásilní dceru i matku
+- Rosetta (dcera) chodila s klukem
+- spí s vesničany za něco
+
+#### Římanka
+
+- navazuje na Horalku
+- o životě prostitutky
